@@ -1,0 +1,91 @@
+
+/*-------------------------------------------------------------------------------------------------*/body{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #674baf;
+    background-image: url(../img/bg-desktop.svg);
+}
+/*-------------------------------------------------------------------------------------------------*/
+
+.quiz__time{
+    font-family: 'Suez One', serif;
+    color:#fff;
+    font-size: 5rem;
+    margin-bottom: 2rem;
+}
+/*-------------------------------------------------------------------------------------------------*/
+
+main{
+    width: 40%;
+    padding: 1rem 1rem;
+    border: 1px solid white;
+    border-radius: 0.5rem;
+    background-color: white;
+}
+.box{
+    padding: 1rem 0;
+    margin: 0.5rem 0;
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+    border-radius: 50px;
+    background-color: #fff;
+    transition: 400ms;
+}
+.box:hover{
+    color: #fff;
+    background-color: #674baf;
+    transform: scale(1.1);
+}
+fieldset{
+    border: none;
+}
+legend{
+    font-family: 'Suez One', serif
+}
+label{
+    width: 100%;
+    text-align: center;
+    font-size: 1.5rem;
+}
+.radio{
+    display:none
+}
+/*---------------------------------------------------------------------------------------------------------------------------------------*/
+footer{
+    margin-top: 2rem;
+    margin-right: 2rem;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+.button{
+    background-color: #fff;
+    font-family: 'Poppins', sans-serif;
+    color: #674baf;
+    font-size: medium;
+    width: 16%;
+    height: 11vh;
+    border: none;
+    border-radius: 50px;
+    transition: 800ms;
+}
+.button:hover{
+    color: #fff;
+    background-color: #674baf;
+    border: 1px solid white;
+}
+/*--------------------------------------------------------------------------------------------------------------------------------------*/
+.change__background{
+    background-color: red ;
+}
+.no__clicks{
+    pointer-events: none;
+}
+.invisible{
+    display: none;
+}
